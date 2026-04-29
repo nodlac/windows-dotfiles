@@ -101,7 +101,6 @@ function Install-Apps {
         "Google.Chrome",
         
         # Development tools
-        "Git.Git",
         "Microsoft.WindowsTerminal",
         "Microsoft.WSL",  # Windows Subsystem for Linux
         
@@ -109,21 +108,11 @@ function Install-Apps {
         "OBSProject.OBSStudio",
         "VideoLAN.VLC",
         
-        # Utilities
-        "7zip.7zip",
-        "Notepad++.Notepad++",
-        "Microsoft.PowerToys",
-        
         # Communication
         "Discord.Discord",
         
         # Gaming
         "Valve.Steam",
-        "GOG.Galaxy",
-        
-        # Other
-        "Adobe.Acrobat.Reader.64-bit",
-        "Malwarebytes.Malwarebytes"
     )
 
     foreach ($app in $apps) {

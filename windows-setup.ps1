@@ -110,6 +110,7 @@ function Install-Apps {
         
         # Communication
         "Discord.Discord",
+        "SlackTechnologies.Slack",
         
         # Gaming
         "Valve.Steam",
